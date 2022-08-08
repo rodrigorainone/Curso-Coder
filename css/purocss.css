@@ -223,6 +223,38 @@ text-decoration: none;
 .iconosHeader :hover{
     color: #4ab7bb;
 }
+   /*      gradiente      */
+.gradiente {
+    
+    background:repeating-linear-gradient(-45deg, #F7C4D5 0px , #F7C4D5 10px,#C2E4EC 10px,#C2E4EC 20px) ;
+    
+    }
+    /*  animacion   */
+    .scale-up-center {
+        -webkit-animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }   
+
+    @-webkit-keyframes scale-up-center {
+        0% {
+          -webkit-transform: scale(0.5);
+                  transform: scale(0.5);
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+      }
+      @keyframes scale-up-center {
+        0% {
+          -webkit-transform: scale(0.5);
+                  transform: scale(0.5);
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+      }
 /*         mobile first            */
 
 @media (min-width:1px) and (max-width: 599px) {
